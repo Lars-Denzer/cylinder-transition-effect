@@ -96,7 +96,7 @@ bash
 
 ## 📚 Technical Documentation
 
-For more in-depth technical details about the animation, Python script, and LaTeX implementation, check out the [Technical Documentation](Readme_Technical_Details.tex).
+For more in-depth technical details about the animation, Python script, and LaTeX implementation, check out the [Technical Documentation](Readme_Technical_Details.pdf).
 
 ## 🪪 License
 
