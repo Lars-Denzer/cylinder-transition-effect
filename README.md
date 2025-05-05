@@ -94,7 +94,9 @@ bash
 | `pause_frames`      | int   | Number of still frames before/after transition (default: 5) |
 | `scale_factor`      | float | Resize factor for both images (default: 0.5)                |
 
+## 📚 Technical Documentation
 
+For more in-depth technical details about the animation, Python script, and LaTeX implementation, check out the [Technical Documentation](Readme_Technical_Details.tex).
 
 ## 🪪 License
 
