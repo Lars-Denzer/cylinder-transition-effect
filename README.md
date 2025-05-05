@@ -12,25 +12,25 @@ A Python script that creates a smooth cylindrical transition effect between two 
 
 ## 🖼️ Example Output
 
-> animate.pdf
+See animate.pdf. Use Adobe or similar for display.
 
 ## 🔧 Requirements
 
 - Python 3.8 or newer
 - [pdf2image](https://pypi.org/project/pdf2image/)
 - [Pillow (PIL)](https://pypi.org/project/Pillow/)
-- Poppler (required by `pdf2image` for PDF rendering)
+- Poppler (required by pdf2image for PDF rendering)
 
 ### 📥 Install dependencies
 
-```bash
+bash
 pip install pdf2image Pillow
 
-```
+
 
 ## 🚀 Usage
 
-```bash
+bash
 from your_script_file import cylinder_transition_effect
 
 cylinder_transition_effect(
@@ -41,16 +41,19 @@ cylinder_transition_effect(
     pause_frames=12,
     scale_factor=0.5
 )
-```
+
+
 This will create a series of PDF files (frames) in the output directory, visually transitioning from first.pdf to second.pdf and back again.
 
 Example:
-```bash
+
+bash
 cylinder_transition_effect("best-min.pdf", "IQ.pdf", "frames_cylinder_new", num_frames=31, pause_frames=12, scale_factor=0.5)
-```
+
+
 Example usage in latex:
 
-```bash
+bash
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -66,20 +69,22 @@ Example usage in latex:
 
 \end{document}
 
-```
+
 
 ## 📂 Output Structure
-```bash
+
+bash
 output_frames/
 ├── frame1.pdf
 ├── frame2.pdf
 ├── ...
 └── frameN.pdf
-```
+
+
 
 ## 🧪 Function Parameters
 
-```bash
+bash
 | Parameter           | Type  | Description                                                 |
 | ------------------- | ----- | ----------------------------------------------------------- |
 | `input_image_path1` | str   | Path to the first PDF file                                  |
@@ -88,7 +93,8 @@ output_frames/
 | `num_frames`        | int   | Number of transition steps (default: 10)                    |
 | `pause_frames`      | int   | Number of still frames before/after transition (default: 5) |
 | `scale_factor`      | float | Resize factor for both images (default: 0.5)                |
-```
+
+
 
 ## 🪪 License
 
