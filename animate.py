@@ -73,4 +73,4 @@ def cylinder_transition_effect(input_image_path1, input_image_path2, output_fold
         frame_index += 1
 
 # Beispielaufruf mit PDF-Dateien
-cylinder_transition_effect("best-min.pdf", "IQ.pdf", "frames_cylinder_new", num_frames=31, pause_frames=12, scale_factor=0.5)
+cylinder_transition_effect("test1.pdf", "test2.pdf", "frames_cylinder_new", num_frames=31, pause_frames=12, scale_factor=0.5)
